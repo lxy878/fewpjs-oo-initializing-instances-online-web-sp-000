@@ -29,4 +29,4 @@ class Dinner{
 
 const q = new Dinner('s','c','e','d')
 q.dessert = 'b'
-console.log(q._dessert);
+console.log(q.dessert);
