@@ -28,5 +28,5 @@ class Dinner{
 }
 
 const q = new Dinner('s','c','e','d')
-q._dessert = 'b'
+q.dessert = 'b'
 console.log(q._dessert);
