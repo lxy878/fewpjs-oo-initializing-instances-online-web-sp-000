@@ -21,6 +21,10 @@ class Dinner{
     this.entree = entree;
     this.#dessert = dessert;
   }
+
+  get dessert(){
+    return this.#dessert
+  }
 }
 
 const q = new Dinner('s','c','e','d')
