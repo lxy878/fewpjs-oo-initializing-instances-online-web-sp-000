@@ -22,3 +22,7 @@ class Dinner{
     this._dessert = dessert;
   }
 }
+
+const q = new Dinner('s','c','e','d')
+q._dessert = 'b'
+console.log();
