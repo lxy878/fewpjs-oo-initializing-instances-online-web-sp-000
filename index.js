@@ -22,7 +22,7 @@ class Dinner{
     this.#dessert = dessert;
   }
 
-  get dessert(){
+  get dessert{
     return this.#dessert
   }
 }
